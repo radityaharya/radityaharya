@@ -1,3 +1,7 @@
 ```bash
-bash <(curl -s https://about.radityaharya.me)
+bash -c "$(curl -sSL https://about.radityaharya.me)"
+```
+
+```bash
+npx radityaharya
 ```
