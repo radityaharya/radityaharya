@@ -32,9 +32,9 @@ const data = {
     work: chalk.white("Information Systems Student at Bina Nusantara University"),
     github: chalk.blue("https://github.com/") + chalk.green("radityaharya"),
     linkedin: chalk.blue("https://linkedin.com/in/") + chalk.green("radityaharya"),
-    email: chalk.blue("mailto:contact@radityaharya.me"),
+    email: chalk.blue("mailto:contact@radityaharya.com"),
     spotify: chalk.blue("https://open.spotify.com/user/") + chalk.green("radityaharya"),
-    web: chalk.blue("https://radityaharya.me"),
+    web: chalk.blue("https://radityaharya.com"),
 };
 
 const me = boxen(
@@ -104,13 +104,13 @@ const actions = [
     {
         name: "Visit my Website",
         value: () => {
-            open("https://radityaharya.me");
+            open("https://radityaharya.com");
         },
     },
     {
         name: "Send me an email",
         value: () => {
-            open("mailto:contact@radityaharya.me");
+            open("mailto:contact@radityaharya.com");
         },
     },
     {

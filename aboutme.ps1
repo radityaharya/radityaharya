@@ -5,8 +5,8 @@ $sentences = @(
     "I'm just kidding, it's safe",
     "My name is Raditya Harya, I'm an Information Systems Student at Bina Nusantara University",
     "Here are some of my contact details",
-    "Email: contact@radityaharya.me",
-    "Github: https://github.com/radityaharya.me",
+    "Email: contact@radityaharya.com",
+    "Github: https://github.com/radityaharya.com",
     "LinkedIn: https://www.linkedin.com/in/radityaharya/"
 )
 
