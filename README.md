@@ -1,5 +1,5 @@
 ```bash
-bash -c "$(curl -sSL https://about.radityaharya.me)"
+bash -c "$(curl -sSL https://about.radityaharya.com)"
 ```
 
 ```bash
@@ -7,5 +7,5 @@ npx radityaharya
 ```
 
 ```powershell
-iwr https://about.radityaharya.me/ps | iex
+iwr https://about.radityaharya.com/ps | iex
 ```
