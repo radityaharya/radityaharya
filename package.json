@@ -1,6 +1,6 @@
 {
   "name": "radityaharya",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "main": "bin.js",
   "bin": "./bin.js",
   "type": "module",
