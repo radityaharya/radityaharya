@@ -1,6 +1,6 @@
 {
   "name": "radityaharya",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "bin.js",
   "bin": "./bin.js",
   "type": "module",
@@ -12,7 +12,6 @@
     "chalk": "^5.2.0",
     "clear": "^0.1.0",
     "inquirer": "^9.1.4",
-    "octokit": "^2.0.14",
     "open": "^8.4.0"
   }
 }

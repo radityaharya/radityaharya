@@ -5,17 +5,12 @@ import chalk from "chalk";
 import inquirer from "inquirer";
 import clear from "clear";
 import open from "open";    
-import { Octokit } from "@octokit/core";
 
 async function latestGithubProjects() {
     const repos = [];
-    const octokit = new Octokit({});
-    const response = await octokit.request("GET /users/{username}/repos", {
-        username: "radityaharya",
-        per_page: 5,
-        sort: "updated",
-    });
-    response.data.forEach((repo) => {
+    const response = await fetch("https://api.github.com/users/radityaharya/repos?per_page=5&sort=updated");
+    const data = await response.json();
+    data.forEach((repo) => {
         repos.push({
             name: repo.name,
             description: repo.description,
